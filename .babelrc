@@ -1,0 +1,8 @@
+{
+    "presets": ["es2015", "stage-0"],
+    "plugins": ["add-module-exports", "transform-runtime",
+    ["babel-plugin-module-alias", [
+        { "src": "./tools", "expose": "tools" },
+        { "src": "./constants", "expose": "constants" }
+    ]]]
+}

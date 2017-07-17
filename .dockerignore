@@ -1,0 +1,11 @@
+# Git
+.git
+.gitignore
+
+#node
+node_modules
+
+#Misc
+README.md
+Makefile
+.eslint*
