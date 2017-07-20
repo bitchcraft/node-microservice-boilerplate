@@ -8,6 +8,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Install app dependencies
+ENV NODE_ENV=production
 COPY package.json /usr/src/app/
 RUN yarn install
 

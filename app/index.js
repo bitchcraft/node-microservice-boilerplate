@@ -1,3 +1,4 @@
+// @flow
 import logging from 'tools/log';
 
 const logger = logging('app:stub');

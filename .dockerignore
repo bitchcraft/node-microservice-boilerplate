@@ -4,8 +4,11 @@
 
 #node
 node_modules
+.flowconfig
+.eslint*
 
 #Misc
 README.md
+LICENSE
 Makefile
-.eslint*
+.editorconfig

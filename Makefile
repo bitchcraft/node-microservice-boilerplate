@@ -10,5 +10,5 @@ install:
 test:
 				node_modules/jest/bin/jest.js
 
-run: install
+run:
 				node index.js
