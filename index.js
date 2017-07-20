@@ -9,7 +9,7 @@ require('babel-register')({
 		'add-module-exports',
 		[
 			"babel-plugin-module-alias", [
-				{ "src": "./tools", "expose": "tools" },
+				{ "src": "./lib/tools", "expose": "tools" },
 				{ "src": "./constants", "expose": "constants" },
 			],
 			"flow-runtime", {

@@ -4,7 +4,7 @@
 		"add-module-exports",
 		"transform-runtime",
 		["babel-plugin-module-alias", [
-			{ "src": "./tools", "expose": "tools" },
+			{ "src": "./lib/tools", "expose": "tools" },
 			{ "src": "./constants", "expose": "constants" }
 		],
 		"flow-runtime", {
