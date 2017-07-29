@@ -1,5 +1,7 @@
 # README
 
+![Dependency status](https://david-dm.org/thiemok/node-microservice-boilerplate.svg)
+
 This is a small boilerplate for node microservices.
 Initial setup for `babel, linting, yarn, jest, flow, logging, make and docker` is provided.
 Just hop into `app/index.js` and start building.
