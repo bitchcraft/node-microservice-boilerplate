@@ -6,6 +6,7 @@
 node_modules
 .flowconfig
 .eslint*
+build
 
 #Misc
 README.md
