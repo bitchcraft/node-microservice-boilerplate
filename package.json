@@ -1,7 +1,7 @@
 {
   "author": "Thiemo Krause",
   "name": "node-microservice-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
