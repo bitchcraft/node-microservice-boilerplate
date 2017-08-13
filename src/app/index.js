@@ -1,5 +1,5 @@
 // @flow
-import logging from 'tools/log';
+import logging from 'lib/tools/log';
 
 const logger = logging('app:stub');
 

@@ -5,4 +5,4 @@ require('babel-polyfill');
 
 require('babel-register');
 
-require('./app/index');
+require('./src/app/index');
