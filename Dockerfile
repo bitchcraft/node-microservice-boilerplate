@@ -1,4 +1,4 @@
-FROM node:boron-alpine AS builder
+FROM node:carbon AS builder
 
 # Create app directory
 RUN mkdir -p /usr/src/app
@@ -14,7 +14,7 @@ COPY . /usr/src/app
 ENV NODE_ENV=production
 RUN yarn build
 
-FROM node:boron-alpine
+FROM node:carbon-alpine
 
 ENV NODE_ENV=production
 
