@@ -31,7 +31,7 @@
     "eslint-plugin-import": "^2.8.0",
     "flow-bin": "^0.66.0",
     "flow-typed": "^2.3.0",
-    "jest": "^22.3.0"
+    "jest": "^24.8.0"
   },
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1",
