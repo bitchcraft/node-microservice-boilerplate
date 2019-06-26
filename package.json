@@ -32,7 +32,7 @@
     "eslint-plugin-flowtype": "^3.10.4",
     "eslint-plugin-flowtype-errors": "^4.1.0",
     "eslint-plugin-import": "^2.18.0",
-    "flow-bin": "^0.101.1",
+    "flow-bin": "^0.102.0",
     "flow-typed": "^2.5.2",
     "jest": "^24.8.0",
     "@babel/preset-flow": "^7.0.0"
