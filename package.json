@@ -11,7 +11,7 @@
     "lint": "node_modules/eslint/bin/eslint.js --cache --format=node_modules/eslint-formatter-pretty .",
     "lint-fix": "npm run lint -- --fix",
     "flow": "node_modules/flow-bin/cli.js",
-    "flow-typed": "rimraf flow-typed/npm && flow-typed install --overwrite || true",
+    "flow-typed": "rimraf flow-typed/npm && flow-typed install || true",
     "postinstall": "[ \"$NODE_ENV\" == production ] && exit 0; npm run flow-typed"
   },
   "repository": {
@@ -22,20 +22,20 @@
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "babel-plugin-flow-runtime": "^0.19.0",
     "eslint": "^6.3.0",
-    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-formatter-pretty": "^2.1.1",
-    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-flowtype": "^4.2.0",
     "eslint-plugin-flowtype-errors": "^4.1.0",
     "eslint-plugin-import": "^2.18.2",
     "flow-bin": "^0.106.3",
     "flow-typed": "^2.6.1",
-    "jest": "^24.9.0",
-    "@babel/preset-flow": "^7.0.0"
+    "jest": "^24.9.0"
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
@@ -61,6 +61,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/register": "^7.5.5",
     "babel-plugin-add-module-exports": "^1.0.2",
-    "babel-plugin-module-resolver": "^3.2.0"
+    "babel-plugin-module-resolver": "^3.2.0",
+    "set-value": "^3.0.1"
   }
 }
