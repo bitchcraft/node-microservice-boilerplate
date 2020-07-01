@@ -31,7 +31,7 @@
     "eslint-plugin-flowtype": "^4.3.0",
     "eslint-plugin-flowtype-errors": "^4.1.0",
     "eslint-plugin-import": "^2.18.2",
-    "flow-bin": "^0.116.1",
+    "flow-bin": "^0.128.0",
     "flow-typed": "^2.6.1",
     "jest": "^24.9.0"
   },
